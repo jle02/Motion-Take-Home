@@ -2,9 +2,9 @@
   "name": "motion-take-home",
   "version": "1.0.0",
   "description": "motion take home",
-  "main": "bin/index.js",
+  "main": "index.js",
   "bin": {
-    "motion-take-home": "bin/index.js"
+    "motion-take-home": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
