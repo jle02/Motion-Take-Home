@@ -42,7 +42,7 @@ const parseCurlArguments = (cliArguments) => {
 
 // Function to execute the command and handle the result
 const executeCommand = () => {
-    const child = exec(curlCommand, (error, stdout, stderr) => {
+    exec(curlCommand, (error, stdout, stderr) => {
         console.log('stdout: ' + stdout);
         console.log('stderr: ' + stderr);
 
